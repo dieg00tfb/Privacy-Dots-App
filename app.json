@@ -1,36 +1,41 @@
 {
   "expo": {
-    "name": "PrivacyDots",
-    "slug": "PrivacyDots",
+    "name": "PrivacyDot",
+    "slug": "PrivacyDot",
+    "scheme": "PrivacyDot",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dieg00tfb.PrivacyDot"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "vapidKeys": {
+        "public": "BE4IgST4sTwTK1GnkNu77Hi55uK1NN_L_VT5M4REzHEJtNoppzFGfc1-ds5-iSr2TrvluwFDJMYX2h5f1VVnGPo",
+        "private": "tXkIdSUYTd-qHfP8W4QywO07l34_23UYTOLU4ACCp6M"
+      }
     },
     "plugins": [
       "expo-router"
     ],
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "eas": {
+        "projectId": "b6eb01ef-6d9d-4218-b326-5b31c4aa1852"
+      }
     }
   }
 }
