@@ -13,3 +13,11 @@ The **Privacy Dots App** is a mobile application that enhances security and priv
 1. **Connect Nodes**: Each node represents a device that has a Privacy Dot sensor for motion detection.
 2. **Push Notifications**: The app receives real-time push notifications when motion is detected by any of your connected nodes.
 3. **Notification History**: The app logs all motion detection events, allowing you to review the history of notifications.
+
+## Technologies Used
+
+- **React Native**: Framework for building cross-platform mobile applications.
+- **Expo Router**: For easy navigation and routing within the app.
+- **Expo Go**: For fast testing and development without native build steps.
+- **Expo Push Notifications**: For real-time notifications when motion is detected.
+- **JavaScript**: Primary programming language for the app's logic and functionality.
