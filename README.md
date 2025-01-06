@@ -2,7 +2,7 @@
 
 The **Privacy Dots App** is a mobile application that enhances security and privacy by notifying users when motion is detected. It receives push notifications from a **Privacy Dots Node**, alerting users when motion is detected around their devices.<br>
 
-![Project Showcase](assets/images/privacy-dots-ss.png)
+![Project Showcase](assets/images/ss-app-portrait.png)
 
 ## Features
 
